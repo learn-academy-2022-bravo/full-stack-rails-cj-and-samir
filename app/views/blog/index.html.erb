@@ -2,10 +2,10 @@
     <ul>  
              <% @blogs.each do |blog| %> 
         <li>
-             <% blog.title %>
+             <%= blog.title %>
         </li>
         <li>
-        <% blog.content %>
+        <%= blog.content %>
    </li>
             <% end %>
     </ul>
