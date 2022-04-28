@@ -1,0 +1,11 @@
+<h1> CJ AND BIGBODY </h1>
+    <ul>  
+             <% @blogs.each do |blog| %> 
+        <li>
+             <% blog.title %>
+        </li>
+        <li>
+        <% blog.content %>
+   </li>
+            <% end %>
+    </ul>
